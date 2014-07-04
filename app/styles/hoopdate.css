@@ -10,3 +10,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.profileThumb {
+	max-height: 100px;
+	max-width: 100px;
+}
