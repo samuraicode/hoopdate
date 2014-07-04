@@ -20,10 +20,10 @@ angular.module('hoopdateApp', [
         templateUrl: 'partials/signup',
         controller: 'SignupCtrl'
       })
-      .when('/profile', {
+      .when('/profile/:profileId', {
         templateUrl: 'partials/profile',
         controller: 'ProfileCtrl',
-        authenticate: true
+        //authenticate: true
       })
       .when('/settings', {
         templateUrl: 'partials/settings',

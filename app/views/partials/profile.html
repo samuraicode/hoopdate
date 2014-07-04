@@ -3,10 +3,10 @@
 
   <div class="jumbotron">
     <div class="row">
-      <div class="col-md-4">
-        <img ng-src="{{profile.photos[0].url}}" class="img-circle img-responsive">
+      <div class="col-md-5">
+        <img ng-src="{{profile.photos[0].url}}" class="img-rounded img-responsive">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-7">
         <h1>{{profile.name}}</h1>
         <p>{{profile.quote}}</p>
         <hr/>
@@ -14,6 +14,7 @@
       </div>
     </div>
     <div class="row">
+      <hr/>
       <div ng-repeat="photo in profile.photos">
         <div class="thumbnail pull-left">
           <img ng-src="{{photo.url}}" alt="{{photo.caption}}" class="img-rounded profileThumb">
