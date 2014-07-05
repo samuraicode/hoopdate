@@ -15,3 +15,13 @@ body {
 	max-height: 100px;
 	max-width: 100px;
 }
+
+.profileLarge.ng-hide-remove {
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+.profileSmall.ng-enter {
+  -webkit-animation: fadeInUp 0.5s;
+  animation: fadeInUp 0.5s;
+}

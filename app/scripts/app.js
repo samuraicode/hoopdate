@@ -5,6 +5,7 @@ angular.module('hoopdateApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
+  'ngAnimate',
   'angularMoment'
 ])
   .config(function ($routeProvider, $locationProvider, $httpProvider) {
