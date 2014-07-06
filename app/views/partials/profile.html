@@ -1,7 +1,7 @@
 <div class="container">
   <div ng-include="'partials/navbar'"></div>
 
-  <div class="jumbotron">
+  <div class="well">
     <div class="row">
       <div class="col-md-5">
         <img ng-show="activePhoto" ng-src="{{activePhoto.url}}" class="img-rounded img-responsive profileLarge">
@@ -15,11 +15,9 @@
         <h1>{{profile.name}}</h1>
         <p>{{profile.quote}}</p>
         <p><strong>Age: </strong>{{profile.dob | age}}</p>
-        <hr/>
         <p><strong>About me:</strong><br/>{{profile.info}}</p>
       </div>
     </div>
-    <pre>{{profile | json}}</pre>
   </div>
 
   <div class="footer">
